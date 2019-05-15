@@ -4,13 +4,7 @@ import {
     Navbar,
     NavbarToggler,
     NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap'
+    Nav } from 'reactstrap'
 
 class NavBar extends PureComponent {
     constructor (props) {
@@ -23,7 +17,7 @@ class NavBar extends PureComponent {
 
     toggle() {
         this.setState({
-        isOpen: !this.state.isOpen
+            isOpen: !this.state.isOpen
         });
     }
 

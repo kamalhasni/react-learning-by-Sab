@@ -1,4 +1,4 @@
-import React, { Component, PureComponent } from 'react'
+import React, { Component } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 class Body extends Component {
@@ -70,8 +70,8 @@ class Body extends Component {
                 {this.state.colorName}
               </ModalBody>
               <ModalFooter>
-                <Button color="primary" className="mr-2" onClick={this.toggle}>Do Something</Button>
-                <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+                {/* <Button color="primary" className="mr-2" onClick={this.toggle}>Do Something</Button> */}
+                <Button color="secondary" onClick={this.toggle}>Close</Button>
               </ModalFooter>
             </Modal>
           </div>)
