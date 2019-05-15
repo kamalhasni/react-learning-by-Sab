@@ -36,11 +36,11 @@ class Body extends Component {
           value: 'Red'
         }, {
           key: 'warning',
-          value: 'Yellow',
+          value: 'Light Yellow',
           requireDarkBg: true
         }, {
           key: 'light',
-          value: 'White',
+          value: 'Pure White',
           requireDarkBg: true
         }, {
           key: 'dark',
