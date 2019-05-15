@@ -44,7 +44,7 @@ class Body extends Component {
           requireDarkBg: true
         }, {
           key: 'dark',
-          value: 'Black'
+          value: 'Dark Black'
         },{
           key: 'info',
           value: 'Cloud Blue'
