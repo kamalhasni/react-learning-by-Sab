@@ -30,10 +30,10 @@ class Body extends Component {
     getColors() {
         return [{
           key: 'primary',
-          value: 'Blue'
+          value: 'Sea Blue'
         }, {
           key: 'danger',
-          value: 'Red'
+          value: 'Rose Red'
         }, {
           key: 'warning',
           value: 'Light Yellow',
