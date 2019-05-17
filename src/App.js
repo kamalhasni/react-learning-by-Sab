@@ -2,22 +2,21 @@ import React from 'react';
 import './App.css';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import NavBar from './components/NavBar.js'
-import Body from './components/Body.js'
+import Home from './components/Home.js'
 import About from './components/About.js'
 
-function App() {
+function App() {   
     return (
+      <div className="container-scroller">
         <Router>
-            <div className="container-scroller">
-                <NavBar />
-                <div className="container mt-5">
-                    <Body />
-                </div>
-            </div>
-            <Route exact path="/" component={App} />
+          <NavBar />
+          <div className="container mt-5">
+            <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
+          </div>          
         </Router>
-    );
+      </div>
+  );
 }
 
 export default App;

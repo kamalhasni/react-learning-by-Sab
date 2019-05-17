@@ -38,6 +38,9 @@ class NavBar extends PureComponent {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
+                                <NavLink href="/">Home</NavLink>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink href="/about">About</NavLink>
                             </NavItem>
                             <NavItem>
