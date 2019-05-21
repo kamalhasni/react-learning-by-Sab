@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
-class Body extends Component {
+class Home extends Component {
     constructor (props) {
         super(props)
         this.state = {
@@ -30,21 +30,21 @@ class Body extends Component {
     getColors() {
         return [{
           key: 'primary',
-          value: 'Blue'
+          value: 'Sea Blue'
         }, {
           key: 'danger',
-          value: 'Red'
+          value: 'Rose Red'
         }, {
           key: 'warning',
-          value: 'Yellow',
+          value: 'Light Yellow',
           requireDarkBg: true
         }, {
           key: 'light',
-          value: 'White',
+          value: 'Pure White',
           requireDarkBg: true
         }, {
           key: 'dark',
-          value: 'Black'
+          value: 'Dark Black'
         },{
           key: 'info',
           value: 'Cloud Blue'
@@ -78,4 +78,4 @@ class Body extends Component {
     }
 }
 
-export default Body
+export default Home
